@@ -23,6 +23,11 @@
     padding: 12px 36px;
 }
 
+.btn-primary:hover {
+    background-color: #f5f2f2;
+    color: #252432;
+}
+
 /* ------------------nav styles----------------- */
 
 header {
@@ -58,8 +63,11 @@ nav ul li {
     width: 180px;
     height: 48px;
     padding: 12px 36px;
+}
 
-
+.banner-btn:hover {
+    background-color: #f5f2f2;
+    color: #252432;
 }
 
 .banner-title {
@@ -116,6 +124,11 @@ main {
     height: 48px;
     padding: 12px 36px;
 
+}
+
+.action-btn:hover {
+    background-color: #f5f2f2;
+    color: #252432;
 }
 
 .action-img {
@@ -195,46 +208,51 @@ main {
     font-size: 24px;
 }
 
-.avatar{
-    border-radius:50%;
+.avatar {
+    border-radius: 50%;
 }
 
-.flow{
+.flow {
     text-align: center;
     margin-bottom: 100px;
-    
-    
+
+
 }
 
-.flow-div{
+.flow-div {
     align-items: center;
 }
-.section-btn{
+
+.section-btn {
     margin: 0 auto;
     display: block;
-
-
 }
 
-.big-img{
+.section-btn:hover {
+    background-color: #f5f2f2;
+    color: #252432;
+}
+
+.big-img {
     border-radius: 48px;
     margin-top: 20px;
 }
 
-.section-title{
+.section-title {
     font-size: 50px;
     font-weight: bold;
 }
 
-.form-class{
-    display:flex;
+.form-class {
+    display: flex;
     gap: 110px;
     justify-content: space-between;
-    margin-bottom: 110px;
-    
+    margin-bottom: 150px;
+
 }
 
- input[type="text"], input[type="email"] {
+input[type="text"],
+input[type="email"] {
     height: 64px;
     border-radius: 5px;
     background-color: aliceblue;
@@ -245,7 +263,7 @@ main {
     border: none;
 }
 
- textarea {
+textarea {
     height: 64px;
     border-radius: 5px;
     background-color: aliceblue;
@@ -256,13 +274,13 @@ main {
     border: none;
 }
 
-.form-title{
+.form-title {
     font-size: 97px;
     font-weight: bold;
 }
 
-.form-btn{
- font-size: 16px;
+.form-btn {
+    font-size: 16px;
     font-weight: bold;
     background-color: #4E47FF;
     border-radius: 10px;
@@ -272,7 +290,31 @@ main {
     padding: 12px 36px;
 }
 
-label{
+.form-btn:hover {
+    background-color: #f5f2f2;
+    color: #252432;
+}
+
+label {
     font-size: 18px;
-    font-weight:600;
+    font-weight: 600;
+}
+
+/* ---------------------------------footer--------------- */
+
+footer {
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+.end {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.footer-title {
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
 }
